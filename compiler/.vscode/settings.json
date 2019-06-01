@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "__error": "Not found",
+    "antlr.src": true,
+    ".classpath": true,
+    ".project": true,
+    "antlr": true,
+    "antlr.bat": true,
+    "gui.bat": true,
+    "lex.bat": true,
+    "tokens.bat": true,
+    "trace.bat": true,
+    ".vscode": true
+  }
+}

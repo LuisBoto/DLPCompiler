@@ -1,0 +1,39 @@
+/*
+Test 1 para probar la Fase de Generaci�n de C�digo
+
+COMPROBACION: Al ejecutarlo la salida deber�a ser:
+1
+4
+
+CONSEJO: No limitarse a comprobar el resultado de la ejecuci�n. Se recomienda adem�s abrir el 
+fichero generado usando el depurador GVM y comprobar sus instrucciones.
+
+Para facilitar esta tarea es de gran utilidad que el alumno haya generado directivas '#line' en el 
+fichero de salida.
+Para informaci�n sobre la funci�n de dicha directiva se debe abrir con GVM el siguiente tutorial: 
+Tutorial\3 Uso b�sico del depurador\4 Fusi�n Alto Nivel.txt
+
+NOTA: Es posible que el alumno deba adaptar ligeramente la sintaxis del lenguaje si no coincide
+con la del lenguaje que le corresponde.
+*/
+
+var global:float;
+
+doble(valor:int):int {
+	return valor * 2;
+}
+
+main() {
+	var local:int;
+
+	global = 1.0;
+	local = 2;
+
+	if (global < 2.0) {
+		print 1;	
+	} else {
+		print local;
+	}
+
+	print doble(2);
+}

@@ -1,0 +1,46 @@
+main(){
+  var hello:[5]char;
+  var world:[5]char;
+  var hw:[12]char;
+  var intVector1:[10]int;
+  var intVector2:[10]int;
+	
+  hello[0] = 'h';
+  hello[1] = 'e';
+  hello[2] = 'l';
+  hello[3] = 'l';
+  hello[4] = 'o';
+  
+  world[0] = 'w';
+  world[1] = 'o';
+  world[2] = 'r';
+  world[3] = 'l';
+  world[4] = 'd';
+
+  hw[0] = 'H';
+  hw[1] = 'e';
+  hw[2] = 'l';
+  hw[3] = 'l';
+  hw[4] = 'o';
+  hw[5] = ' ';
+  hw[6] = 'w';
+  hw[7] = 'o';
+  hw[8] = 'r';
+  hw[9] = 'l';
+  hw[10] = 'd';
+  hw[11] = '!';
+	
+  println hello;
+  println world;
+  println hw;
+
+  hello = world;
+  println hello; //world
+  
+  world = hw;
+  println world; //hello
+
+  //hw = hello;
+  //intVector1 = intVector2;
+}
+

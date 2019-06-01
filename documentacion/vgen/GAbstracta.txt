@@ -1,0 +1,49 @@
+CATEGORIES
+sentencia, expresion, type, bloque
+
+NODES
+
+program -> bloque*;
+
+varDef:bloque -> name:string type;
+estructuraDef:bloque -> nombre:string atributos:atributo*;
+funcionDef:bloque -> name:string parametros:parametro* type variables:varDef* sentencias:sentencia*;
+
+atributo -> name:string type;
+
+parametro -> nombre:string type;
+
+intType:type -> ;
+realType:type -> ;
+charType:type -> ;
+arrayType:type -> size:expresion type;
+customType:type -> nombre:string;
+
+read:sentencia -> value:expresion;
+print:sentencia -> operacion:string value:expresion;
+assign:sentencia -> left:expresion right:expresion;
+whileloop:sentencia -> condicion:expresion sentencias:sentencia*;
+ifDef:sentencia -> condicion:expresion iftrue:sentencia* iffalse:sentencia*;
+returnSent:sentencia -> retorno:expresion;
+llamadaS:sentencia -> invocacion:llamada;
+
+variable:expresion -> name:string;
+accesoStruct:expresion -> left:expresion right:expresion;
+integral:expresion -> valor:string;
+real:expresion -> valor:string;
+caracter:expresion -> valor:string;
+accesoArray:expresion -> var:variable dimensiones:array;
+parentesis:expresion -> contenido:expresion;
+casting:expresion -> tipo:type contenido:expresion;
+aritmetica:expresion -> left:expresion operando:string right:expresion;
+comparativa:expresion -> left:expresion operando:string right:expresion;
+logica:expresion -> left:expresion operando:string right:expresion;
+llamadaE:expresion -> invocacion:llamada;
+
+array -> pos:expresion;
+
+llamada -> nombre:string parametros:expresion*;
+
+
+
+

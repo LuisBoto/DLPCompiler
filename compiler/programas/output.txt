@@ -1,0 +1,691 @@
+#source "examen2.txt"
+call main
+halt
+main:
+enter 62
+#line 8
+pusha BP
+push -5
+add
+push 0
+push 1
+mul
+add
+pushb 104
+storeB
+#line 9
+pusha BP
+push -5
+add
+push 1
+push 1
+mul
+add
+pushb 101
+storeB
+#line 10
+pusha BP
+push -5
+add
+push 2
+push 1
+mul
+add
+pushb 108
+storeB
+#line 11
+pusha BP
+push -5
+add
+push 3
+push 1
+mul
+add
+pushb 108
+storeB
+#line 12
+pusha BP
+push -5
+add
+push 4
+push 1
+mul
+add
+pushb 111
+storeB
+#line 14
+pusha BP
+push -10
+add
+push 0
+push 1
+mul
+add
+pushb 119
+storeB
+#line 15
+pusha BP
+push -10
+add
+push 1
+push 1
+mul
+add
+pushb 111
+storeB
+#line 16
+pusha BP
+push -10
+add
+push 2
+push 1
+mul
+add
+pushb 114
+storeB
+#line 17
+pusha BP
+push -10
+add
+push 3
+push 1
+mul
+add
+pushb 108
+storeB
+#line 18
+pusha BP
+push -10
+add
+push 4
+push 1
+mul
+add
+pushb 100
+storeB
+#line 20
+pusha BP
+push -22
+add
+push 0
+push 1
+mul
+add
+pushb 72
+storeB
+#line 21
+pusha BP
+push -22
+add
+push 1
+push 1
+mul
+add
+pushb 101
+storeB
+#line 22
+pusha BP
+push -22
+add
+push 2
+push 1
+mul
+add
+pushb 108
+storeB
+#line 23
+pusha BP
+push -22
+add
+push 3
+push 1
+mul
+add
+pushb 108
+storeB
+#line 24
+pusha BP
+push -22
+add
+push 4
+push 1
+mul
+add
+pushb 111
+storeB
+#line 25
+pusha BP
+push -22
+add
+push 5
+push 1
+mul
+add
+pushb 32
+storeB
+#line 26
+pusha BP
+push -22
+add
+push 6
+push 1
+mul
+add
+pushb 119
+storeB
+#line 27
+pusha BP
+push -22
+add
+push 7
+push 1
+mul
+add
+pushb 111
+storeB
+#line 28
+pusha BP
+push -22
+add
+push 8
+push 1
+mul
+add
+pushb 114
+storeB
+#line 29
+pusha BP
+push -22
+add
+push 9
+push 1
+mul
+add
+pushb 108
+storeB
+#line 30
+pusha BP
+push -22
+add
+push 10
+push 1
+mul
+add
+pushb 100
+storeB
+#line 31
+pusha BP
+push -22
+add
+push 11
+push 1
+mul
+add
+pushb 33
+storeB
+#line 33
+pusha BP
+push -5
+add
+push 0
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 1
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 2
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 3
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 4
+push 1
+mul
+add
+loadB
+outB
+pushb 10
+outb
+#line 34
+pusha BP
+push -10
+add
+push 0
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 1
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 2
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 3
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 4
+push 1
+mul
+add
+loadB
+outB
+pushb 10
+outb
+#line 35
+pusha BP
+push -22
+add
+push 0
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 1
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 2
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 3
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 4
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 5
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 6
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 7
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 8
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 9
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 10
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -22
+add
+push 11
+push 1
+mul
+add
+loadB
+outB
+pushb 10
+outb
+#line 37
+pusha BP
+push -5
+add
+push 0
+push 1
+mul
+add
+pusha BP
+push -10
+add
+push 0
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -5
+add
+push 1
+push 1
+mul
+add
+pusha BP
+push -10
+add
+push 1
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -5
+add
+push 2
+push 1
+mul
+add
+pusha BP
+push -10
+add
+push 2
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -5
+add
+push 3
+push 1
+mul
+add
+pusha BP
+push -10
+add
+push 3
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -5
+add
+push 4
+push 1
+mul
+add
+pusha BP
+push -10
+add
+push 4
+push 1
+mul
+add
+loadB
+storeB
+#line 38
+pusha BP
+push -5
+add
+push 0
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 1
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 2
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 3
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -5
+add
+push 4
+push 1
+mul
+add
+loadB
+outB
+pushb 10
+outb
+#line 40
+pusha BP
+push -10
+add
+push 0
+push 1
+mul
+add
+pusha BP
+push -22
+add
+push 0
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -10
+add
+push 1
+push 1
+mul
+add
+pusha BP
+push -22
+add
+push 1
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -10
+add
+push 2
+push 1
+mul
+add
+pusha BP
+push -22
+add
+push 2
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -10
+add
+push 3
+push 1
+mul
+add
+pusha BP
+push -22
+add
+push 3
+push 1
+mul
+add
+loadB
+storeB
+pusha BP
+push -10
+add
+push 4
+push 1
+mul
+add
+pusha BP
+push -22
+add
+push 4
+push 1
+mul
+add
+loadB
+storeB
+#line 41
+pusha BP
+push -10
+add
+push 0
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 1
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 2
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 3
+push 1
+mul
+add
+loadB
+outB
+pusha BP
+push -10
+add
+push 4
+push 1
+mul
+add
+loadB
+outB
+pushb 10
+outb
+ret 0, 62, 0
